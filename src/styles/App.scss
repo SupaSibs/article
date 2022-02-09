@@ -1,0 +1,39 @@
+@use "./modules/vars" as *;
+@use "./modules/mixins" as *;
+
+
+body, .root {
+@include flex();
+background-color: $lightGrayBlue;
+height: 100vh;
+font-size: $fontsize;
+}
+
+
+main{
+@include grid(40% 60%, 100%);
+border-radius: 10px;
+background-color: white;
+min-height: 50vh;
+max-width: 60vw;
+.one {
+@include flex(column, flex-start);
+}
+}
+
+footer {
+@include flex();
+}
+
+h1 {
+color: $darkDesaturatedBlue;
+}
+	
+.badge {
+border-radius: 50%;
+}
+
+.share {
+border-radius: 50%;
+background-color: $darkDesaturatedBlue;
+}

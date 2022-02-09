@@ -1,0 +1,22 @@
+
+@mixin bg($col:default, $img: default, $impos: default, $imsz: default, $imrep: no-repeat) {
+background-color: $color;
+background-image: $img;
+background-position: $impos;
+background-size: $imsz;
+background-repeat: $imrep;
+}
+
+@mixin grid($columns, $rows, $justify: center, $align:center) {
+display: grid;
+grid-template: $rows / $columns;
+justify-content: $justify;
+align-items: $align;
+}
+
+@mixin flex($direction: row, $justify: center, $align: center) {
+display: flex;
+flex-direction: $direction;
+justify-content: $justify;
+align-items: $align;
+}
