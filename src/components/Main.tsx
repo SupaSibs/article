@@ -6,7 +6,7 @@ return (<>
 <main>
 
 <div>
-<img src="../images/avatar-michelle.jpg" alt="of Michelle"/>
+<img src="../images/drawers.jpg" alt="of Michelle"/>
 </div>
 
   <div id="one">
@@ -15,14 +15,10 @@ return (<>
 Perhaps it felt slightly bare and uninviting.
 I've got some simple tips to help you make any room feel complete.</p>
 	<div>
-	  <footer><span><p>Michelle Appleton</p><p>28 Jun 2020</p></span><button onClick={openShareable}>Share</button></footer>
+	  <footer><span><p>Michelle Appleton</p><p>28 Jun 2020</p></span><button  className="share">Share</button></footer>
 	</div>
   </div>
 </main>
 </>)
 }
 
-
-function openShareable() {
-
-}

@@ -25,6 +25,7 @@ footer {
 @include flex();
 }
 
+
 h1 {
 color: $darkDesaturatedBlue;
 }
@@ -35,5 +36,12 @@ border-radius: 50%;
 
 .share {
 border-radius: 50%;
+margin-left: 15px;
 background-color: $darkDesaturatedBlue;
+
+&:focus-within {
+* {
+
+}
+}
 }
